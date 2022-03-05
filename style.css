@@ -1,0 +1,129 @@
+/* 
+    Nama  : Sri Nanda Ameliani
+    NIM   : 2008196
+    Kelas : Ilmu Komputer - KOM-4C2
+*/
+
+*
+{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:link, a:visited{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+header{
+    background: #0226FD;
+    color: #FFFFFF;
+    padding: 12px;
+    text-align: center;
+}
+
+footer{
+    background: #0226FD;
+    color: #FFFFFF;
+    clear: right;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logo
+{
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.profile{
+    color: #595959;
+    text-align: left;
+}
+
+h2, h3{
+    color: #0226FD;
+}
+
+p{
+    color: #595959;
+    text-align: justify;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.navbar
+{
+    background: #3552FD;
+    color: #FFFFFF;
+    padding: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+    word-spacing: 20px;
+}
+
+.sidebar
+{
+    background: #FFFFFF;
+    border: 10px #000000;
+    box-shadow: 1px 1px 6px #696969;
+    float: right;
+    padding: 10px;
+    right: 150px;
+    width: auto;
+    max-width: 20%;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content{
+    background: #FFFFFF;
+    border: 10px #000000;
+    box-shadow: 1px 1px 6px #696969;
+    padding: 10px;
+    width: 75%;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form{
+    color: #595959;
+    font-size: medium;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.input
+{
+    margin: 10px;
+    padding: 10px;
+    width: 95%;
+}
+
+.submit
+{
+    background: #0226FD;
+    color: #FFFFFF;
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    width: 98%;
+}

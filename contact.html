@@ -1,0 +1,108 @@
+<!--
+    Nama  : Sri Nanda Ameliani
+    NIM   : 2008196
+    Kelas : Ilmu Komputer - KOM-4C2
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "UTF-8" />
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
+        <title>Tugas Praktikum 01 - Desain dan Pemrograman Web</title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <a href = "index.html">
+                <img class = "logo" src = "img/logoeskrim.png">
+                <h1>Yang Anda Butuhkan Hanyalah Cinta dan Mungkin Sedikit Es Krim</h1>
+            </a>
+        </header>
+
+        <!-- Top Navigasi -->
+        <nav class = "navbar">
+            <a href = "index.html">Home</a>
+            <a href = "varians.html">Varians</a>
+            <a href = "contact.html">Contact</a>
+        </nav>
+
+        <!-- Sidebar -->
+        <nav class = "sidebar">
+            <h2 align = "center">Profil Diri</h2>
+            <img class = "center" src = "img/srinanda.jpeg">
+            <table>
+                <tr>
+                    <th>Nama</th>
+                    <th class = "profile">Sri Nanda Ameliani</th>
+                </tr>
+                <tr>
+                    <th>NIM</th>
+                    <th class = "profile">2008196</th>
+                </tr>
+                <tr>
+                    <th>Jenis Kelamin</th>
+                    <th class = "profile">Perempuan</th>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <th class = "profile">srinanda6@upi.edu</th>
+                </tr>
+            </table>
+        </nav>
+
+        <!-- Main content, showing form. -->
+        <form method = "post" action = "./contact.html">
+            <fieldset class = "content">
+                <!-- Name content, with required attribute and custom validity. -->
+                <label for = "name">
+                    <p class = "form">Nama</p>
+                    <input
+                        class = "input"
+                        name = "name"
+                        type = "text"
+                        placeholder = "Nama Kamu..."
+                        required = ""
+                        oninput = "this.setCustomValidity('')"
+                        oninvalid = "this.setCustomValidity('Harap isi bidang ini.')" />
+                </label>
+    
+                <!-- Region content, with required attribute and custom validity. -->
+                <label for = "region">
+                    <p class = "form">Asal Negara</p>
+                    <input
+                        class = "input"
+                        name = "region"
+                        type = "text"
+                        placeholder = "Asal..."
+                        required = ""
+                        oninput = "this.setCustomValidity('')"
+                        oninvalid = "this.setCustomValidity('Harap isi bidang ini.')" />
+                </label>
+    
+                <!-- Message content, with required attribute and custom validity. -->
+                <label for = "message">
+                    <p class = "form">Pesan</p>
+                    <textarea
+                        class = "input"
+                        name = "message"
+                        placeholder = "Isi Pesan..."
+                        rows = 3
+                        required = ""
+                        oninput = "this.setCustomValidity('')"
+                        oninvalid = "this.setCustomValidity('Harap isi bidang ini.')"
+                    ></textarea>
+                </label>
+
+                <!-- Input button. -->
+                <input class = "submit" type = "submit" value = "Submit" />
+            </fieldset>
+        </form>
+
+        <!-- Footer. -->
+        <footer>
+            <h4>Praktikum Desain dan Pemrograman Web</h4>
+        </footer>
+    </body>
+</html>
